@@ -3,7 +3,7 @@ package h1;
 public class H1_main {
 	public static void main(String[] args) {
 
-		int[] myArray = {1, 2, 3, 4};
+		int[] myArray = { 1, 2, 3, 4 };
 
 		int[] myArrayreversed = new int[myArray.length];
 
@@ -16,5 +16,5 @@ public class H1_main {
 		System.out.println("Eingabe: " + java.util.Arrays.toString(myArray));
 		System.out.println("Rueckwaerts: " + java.util.Arrays.toString(myArrayreversed));
 
-		}
 	}
+}
